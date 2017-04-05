@@ -16,6 +16,12 @@ open class PHCyclePictureView: UIView {
     
     private struct Constants {
         static let defaultPlaceholderImageTextFont = UIFont.systemFont(ofSize: 14.0)
+        static let defaultPlaceholderImage: UIImage = {
+            let text = NSLocalizedString("Loading", comment: "图片加载中...")
+            let placeholderImage = UIImage(text: text, font: defaultPlaceholderImageTextFont, color: .white, backgroundColor: .black)
+            
+            return placeholderImage!
+        }()
     }
     
     // MARK: - 数据源
@@ -83,7 +89,7 @@ open class PHCyclePictureView: UIView {
     }
     
     /// 占位图片，当图片不能显示时显示的图片
-    open var placeholderImage: UIImage = UIImage(text: NSLocalizedString("Loading", comment: "图片加载中..."), font: Constants.defaultPlaceholderImageTextFont, backgroundColor: .black)! {
+    open var placeholderImage: UIImage = Constants.defaultPlaceholderImage {
         didSet {
             leftImageView.placeholderImage   = placeholderImage
             centerImageView.placeholderImage = placeholderImage

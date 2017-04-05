@@ -12,6 +12,12 @@ class PHCycleImageView: UIImageView {
 
     private struct Constants {
         static let defaultPlaceholderImageTextFont = UIFont.systemFont(ofSize: 14.0)
+        static let defaultPlaceholderImage: UIImage = {
+            let text = NSLocalizedString("Loading", comment: "图片加载中...")
+            let placeholderImage = UIImage(text: text, font: defaultPlaceholderImageTextFont, color: .white, backgroundColor: .black)
+            
+            return placeholderImage!
+        }()
     }
     
     // MARK: - 属性
@@ -22,7 +28,7 @@ class PHCycleImageView: UIImageView {
         }
     }
     /// 占位图片
-    var placeholderImage: UIImage = UIImage(text: NSLocalizedString("Loading", comment: "图片加载中..."), font: Constants.defaultPlaceholderImageTextFont, backgroundColor: .black)! {
+    var placeholderImage: UIImage = Constants.defaultPlaceholderImage {
         didSet {
             updateImage()
         }
@@ -39,7 +45,7 @@ class PHCycleImageView: UIImageView {
             image = UIImage(named: name)
         case let .network(urlString: urlString):
             let encodeString = urlString.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
-            imageFromURL(encodeString, placeholder: placeholderImage)
+            self.imageFromURL(encodeString, placeholder: placeholderImage)
         }
     }
 

@@ -18,7 +18,7 @@ open class PHCyclePictureView: UIView {
         static let defaultPlaceholderImageTextFont = UIFont.systemFont(ofSize: 14.0)
         static let defaultPlaceholderImage: UIImage = {
             let text = NSLocalizedString("Loading", comment: "图片加载中...")
-            let placeholderImage = UIImage(text: text, font: defaultPlaceholderImageTextFont, color: .white, backgroundColor: .black)
+            let placeholderImage = UIImage(text: text, font: defaultPlaceholderImageTextFont, backgroundColor: .black)
             
             return placeholderImage!
         }()

@@ -1,12 +1,8 @@
 # PHCyclePictureView
 图片轮播器，可循环播放本地图片或网络图片。可以定制是否自动播放，自动播放时间间隔，图片占位图片等。
 
-![Screenshot]()
-
 ## 安装
-
 可以把Sources文件拖拽到您的项目中，也可以在 [CocoaPods](https://cocoapods.org/) 中安装 `PHCyclePictureView`:
-
 ```ruby
 # Podfile
 
@@ -14,7 +10,6 @@ pod 'PHCyclePictureView'
 ```
 
 ## 使用
-
 ```swift
 let images = ["http://bizhi.zhuoku.com/bizhi2008/0516/3d/3d_desktop_13.jpg",
                       "http://tupian.enterdesk.com/2012/1015/zyz/03/5.jpg",
@@ -33,7 +28,6 @@ view.addSubview(cyclePictureView)
 ```
 
 ### PHCyclePictureViewDelegate
-
 ```swift
 cyclePictureView.delegate = self
 
@@ -45,17 +39,13 @@ extension ViewController: PHCyclePictureViewDelegate {
 ```
 
 ## 要求
-
 iOS 9 or higher
 
 ## 感谢
-
 用到了第三方库 [ImageHelper](https://github.com/melvitax/ImageHelper)，在这里表示感谢[Melvin Rivera](https://github.com/melvitax)
 
 ## 作者
-
 qixizhu, hanqi_ah@163.com
 
 ## License
-
 CopyableLabel is available under the MIT license. See the LICENSE file for more info.

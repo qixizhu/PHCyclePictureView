@@ -26,12 +26,10 @@ Pod::Spec.new do |s|
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  s.ios.deployment_target = "8.0"
+  s.ios.deployment_target = "9.0"
 
   s.source       = { :git => "https://github.com/qixizhu/PHCyclePictureView.git", :tag => "#{s.version}" }
 
-  s.source_files  = "Sources", "PHCyclePictureView/Sources/*"
-
-  # s.framework  = "UIKit"
+  s.source_files  = "PHCyclePictureView/Sources/**/*"
 
 end

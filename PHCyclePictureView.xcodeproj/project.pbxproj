@@ -34,7 +34,6 @@
 		AF2835481E948A6B0086E40A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		AF28354A1E948A770086E40A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		AF28354C1E948A790086E40A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		AF28354E1E948ABF0086E40A /* ImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageHelper.h; sourceTree = "<group>"; };
 		AF28354F1E948ABF0086E40A /* ImageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
 		AF2835501E948ABF0086E40A /* ImageVIewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageVIewExtension.swift; sourceTree = "<group>"; };
 		AF2835511E948ABF0086E40A /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
@@ -114,7 +113,6 @@
 		AF28354D1E948ABF0086E40A /* ImageHelper */ = {
 			isa = PBXGroup;
 			children = (
-				AF28354E1E948ABF0086E40A /* ImageHelper.h */,
 				AF28354F1E948ABF0086E40A /* ImageHelper.swift */,
 				AF2835501E948ABF0086E40A /* ImageVIewExtension.swift */,
 				AF2835511E948ABF0086E40A /* Info-iOS.plist */,
@@ -390,6 +388,7 @@
 				AF2835411E9489600086E40A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -41,6 +41,7 @@
 		AF2835581E948AF90086E40A /* PHCyclePictureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHCyclePictureView.swift; sourceTree = "<group>"; };
 		AF28355A1E948B610086E40A /* PHCycleImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHCycleImageView.swift; sourceTree = "<group>"; };
 		AF28355C1E948B8F0086E40A /* PHCyclePictureHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHCyclePictureHelper.swift; sourceTree = "<group>"; };
+		AF572C6A1E9B855200BE1715 /* ImageHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageHelper.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +114,7 @@
 		AF28354D1E948ABF0086E40A /* ImageHelper */ = {
 			isa = PBXGroup;
 			children = (
+				AF572C6A1E9B855200BE1715 /* ImageHelper.h */,
 				AF28354F1E948ABF0086E40A /* ImageHelper.swift */,
 				AF2835501E948ABF0086E40A /* ImageVIewExtension.swift */,
 				AF2835511E948ABF0086E40A /* Info-iOS.plist */,

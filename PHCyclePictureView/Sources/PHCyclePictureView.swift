@@ -442,9 +442,8 @@ extension PHCyclePictureView: UIScrollViewDelegate {
     @objc optional func cyclePictureView(_ cyclePictureView: PHCyclePictureView, didTapItemAt index: Int)
 }
 
-// MARK: - PHCyclePictureViewDataSource
+// MARK: - PHCyclePictureViewDataSource 未实现
 @objc public protocol PHCyclePictureViewDataSource : NSObjectProtocol {
     @objc optional func numberOfItems(in cyclePictureView: PHCyclePictureView) -> Int
     @objc optional func cyclePictureView(_ cyclePictureView: PHCyclePictureView, titleForItemAt index: Int) -> UIImage
-    @objc optional func cyclePictureView(_ cyclePictureView: PHCyclePictureView, titleForItemAt index: Int) -> String?
 }

@@ -46,7 +46,7 @@ iOS 9 or higher
 
 [走心的 Swift 翻译组](http://swift.gg/)，[基于 Swift 创建 CocoaPods 完全指南](http://www.swift.gg/2016/12/15/cocoapods-making-guide/)
 
-[ImageHelper](https://github.com/melvitax/ImageHelper)，在这里表示感谢 [Melvin Rivera](https://github.com/melvitax)
+第三方库 [ImageHelper](https://github.com/melvitax/ImageHelper)
 
 @[roshanman](https://github.com/roshanman)
 

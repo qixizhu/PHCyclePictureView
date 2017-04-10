@@ -43,6 +43,7 @@ iOS 9 or higher
 
 ## 特别感谢
 [航歌-做最好的开发者平台](http://www.hangge.com/)，[Swift - 图片循环轮播组件的实现（附样例）](http://www.hangge.com/blog/cache/detail_1314.html)
+
 [走心的 Swift 翻译组](http://swift.gg/)，[基于 Swift 创建 CocoaPods 完全指南](http://www.swift.gg/2016/12/15/cocoapods-making-guide/)
 [ImageHelper](https://github.com/melvitax/ImageHelper)，在这里表示感谢 [Melvin Rivera](https://github.com/melvitax)
 @[roshanman](https://github.com/roshanman)

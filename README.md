@@ -48,6 +48,10 @@ extension ViewController: PHCyclePictureViewDelegate {
 
 iOS 9 or higher
 
+## 感谢
+
+用到了第三方库 [ImageHelper](https://github.com/melvitax/ImageHelper)，在这里表示感谢[Melvin Rivera](https://github.com/melvitax)
+
 ## Author
 
 qixizhu, hanqi_ah@163.com

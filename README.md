@@ -3,9 +3,9 @@
 
 ![Screenshot]()
 
-## Installation
+## 安装
 
-[CocoaPods](https://cocoapods.org/) is the recommended method of installing `PHCyclePictureView`. Simply add the following line to your `Podfile`:
+可以把Sources文件拖拽到您的项目中，也可以在 [CocoaPods](https://cocoapods.org/) 中安装 `PHCyclePictureView`:
 
 ```ruby
 # Podfile
@@ -13,7 +13,7 @@
 pod 'PHCyclePictureView'
 ```
 
-## Usage
+## 使用
 
 ```swift
 let images = ["http://bizhi.zhuoku.com/bizhi2008/0516/3d/3d_desktop_13.jpg",
@@ -44,7 +44,7 @@ extension ViewController: PHCyclePictureViewDelegate {
 }
 ```
 
-## Requirements
+## 要求
 
 iOS 9 or higher
 
@@ -52,7 +52,7 @@ iOS 9 or higher
 
 用到了第三方库 [ImageHelper](https://github.com/melvitax/ImageHelper)，在这里表示感谢[Melvin Rivera](https://github.com/melvitax)
 
-## Author
+## 作者
 
 qixizhu, hanqi_ah@163.com
 

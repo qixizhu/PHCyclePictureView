@@ -3,6 +3,16 @@
 
 ![Screenshot]()
 
+## Installation
+
+[CocoaPods](https://cocoapods.org/) is the recommended method of installing `PHCyclePictureView`. Simply add the following line to your `Podfile`:
+
+```ruby
+# Podfile
+
+pod 'PHCyclePictureView'
+```
+
 ## Usage
 
 ```swift

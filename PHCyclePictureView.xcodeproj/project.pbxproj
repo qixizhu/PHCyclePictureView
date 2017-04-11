@@ -22,6 +22,7 @@
 		AF28355D1E948B8F0086E40A /* PHCyclePictureHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF28355C1E948B8F0086E40A /* PHCyclePictureHelper.swift */; };
 		AF7B823C1E9C6F260019F283 /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF7B82391E9C6F260019F283 /* 2.gif */; };
 		AF7B823D1E9C6F260019F283 /* 3.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF7B823A1E9C6F260019F283 /* 3.gif */; };
+		AF7B823F1E9C70F20019F283 /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF7B823E1E9C70F20019F283 /* 1.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		AF572C6A1E9B855200BE1715 /* ImageHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageHelper.h; sourceTree = "<group>"; };
 		AF7B82391E9C6F260019F283 /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2.gif; sourceTree = "<group>"; };
 		AF7B823A1E9C6F260019F283 /* 3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 3.gif; sourceTree = "<group>"; };
+		AF7B823E1E9C70F20019F283 /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 		AF7B82371E9C6EBA0019F283 /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
+				AF7B823E1E9C70F20019F283 /* 1.gif */,
 				AF7B82391E9C6F260019F283 /* 2.gif */,
 				AF7B823A1E9C6F260019F283 /* 3.gif */,
 			);
@@ -213,6 +216,7 @@
 				AF2835491E948A770086E40A /* Localizable.strings in Resources */,
 				AF7B823C1E9C6F260019F283 /* 2.gif in Resources */,
 				AF2835551E948ABF0086E40A /* Info-iOS.plist in Resources */,
+				AF7B823F1E9C70F20019F283 /* 1.gif in Resources */,
 				AF2835381E9489600086E40A /* Assets.xcassets in Resources */,
 				AF2835361E9489600086E40A /* Main.storyboard in Resources */,
 			);

@@ -25,9 +25,11 @@ class ViewController: UIViewController {
         cyclePictureView = PHCyclePictureView()
         let cyclePVFrame = CGRect(x: 0, y: 64, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.width * 0.512)
         cyclePictureView.frame = cyclePVFrame
-        cyclePictureView.pageControlPosition = .right
+        cyclePictureView.pageControlPosition = .left
         cyclePictureView.imageURLStrings = images
         cyclePictureView.imageTitles = titles
+        // 底部容器的背景颜色
+//        cyclePictureView.anchorBackgroundColor = .clear
         cyclePictureView.delegate = self
         view.addSubview(cyclePictureView)
     }

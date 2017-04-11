@@ -1,6 +1,10 @@
 # PHCyclePictureView
 图片轮播器，可循环播放本地图片或网络图片。可以定制是否自动播放，自动播放时间间隔，图片占位图片等。
 
+![img](https://github.com/qixizhu/PHCyclePictureView/blob/master/PHCyclePictureView/1.gif)
+![img](https://github.com/qixizhu/PHCyclePictureView/blob/master/PHCyclePictureView/2.gif)
+![img](https://github.com/qixizhu/PHCyclePictureView/blob/master/PHCyclePictureView/3.gif)
+
 ## 安装
 可以把 `Sources` 文件拖拽到您的项目中，也可以在 [CocoaPods](https://cocoapods.org/) 中安装 `PHCyclePictureView`:
 ```ruby

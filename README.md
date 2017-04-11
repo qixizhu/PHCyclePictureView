@@ -1,10 +1,15 @@
 # PHCyclePictureView
 图片轮播器，可循环播放本地图片或网络图片。可以定制是否自动播放，自动播放时间间隔，图片占位图片等。
 
-![Screenshot]()
+## 安装
+可以把 `Sources` 文件拖拽到您的项目中，也可以在 [CocoaPods](https://cocoapods.org/) 中安装 `PHCyclePictureView`:
+```ruby
+# Podfile
 
-## Usage
+pod 'PHCyclePictureView'
+```
 
+## 使用
 ```swift
 let images = ["http://bizhi.zhuoku.com/bizhi2008/0516/3d/3d_desktop_13.jpg",
                       "http://tupian.enterdesk.com/2012/1015/zyz/03/5.jpg",
@@ -23,7 +28,6 @@ view.addSubview(cyclePictureView)
 ```
 
 ### PHCyclePictureViewDelegate
-
 ```swift
 cyclePictureView.delegate = self
 
@@ -34,14 +38,20 @@ extension ViewController: PHCyclePictureViewDelegate {
 }
 ```
 
-## Requirements
-
+## 要求
 iOS 9 or higher
 
-## Author
+## 特别感谢
+[航歌-做最好的开发者知识平台](http://www.hangge.com/)，[Swift - 图片循环轮播组件的实现（附样例）](http://www.hangge.com/blog/cache/detail_1314.html)
 
+[走心的 Swift 翻译组](http://swift.gg/)，[基于 Swift 创建 CocoaPods 完全指南](http://www.swift.gg/2016/12/15/cocoapods-making-guide/)
+
+第三方库 [ImageHelper](https://github.com/melvitax/ImageHelper)
+
+@[roshanman](https://github.com/roshanman)
+
+## 作者
 qixizhu, hanqi_ah@163.com
 
 ## License
-
 CopyableLabel is available under the MIT license. See the LICENSE file for more info.

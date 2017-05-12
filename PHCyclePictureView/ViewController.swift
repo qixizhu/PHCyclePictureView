@@ -19,7 +19,7 @@ class ViewController: UIViewController {
                       "http://tupian.enterdesk.com/2012/1015/zyz/03/5.jpg",
                       "http://img.web07.cn/UpImg/Desk/201301/12/desk230393121053551.jpg",
                       "http://wallpaper.160.com/Wallpaper/Image/1280_960/1280_960_37227.jpg",
-                      "http://bizhi.zhuoku.com/wall/jie/20061124/cartoon2/cartoon014.jpg"]
+                      "http://imgsrc.baidu.com/forum/w%3D580/sign=4e0ee1bcd2c8a786be2a4a065709c9c7/bc71953eb13533fae99ad268abd3fd1f40345bf5.jpg"]
         let titles = ["标题一", "标题二", "标题三", "标题四", "标题五"]
         
         cyclePictureView = PHCyclePictureView()

@@ -44,8 +44,7 @@ class PHCycleImageView: UIImageView {
         case let .local(name: name):
             image = UIImage(named: name)
         case let .network(urlString: urlString):
-            let encodeString = urlString.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
-            self.imageFromURL(encodeString, placeholder: placeholderImage)
+            self.imageFromURL(urlString, placeholder: placeholderImage)
         }
     }
 

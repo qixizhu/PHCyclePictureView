@@ -1,5 +1,5 @@
 # PHCyclePictureView
-图片轮播器，可循环播放本地图片或网络图片。可以定制是否自动播放，自动播放时间间隔，图片占位图片等。
+图片轮播器，可循环播放本地图片或网络图片。可以定制是否自动播放，自动播放时间间隔，图片占位图片等。现已支持自动缓存。
 
 ![img](https://github.com/qixizhu/PHCyclePictureView/blob/master/PHCyclePictureView/1.gif)
 ![img](https://github.com/qixizhu/PHCyclePictureView/blob/master/PHCyclePictureView/2.gif)

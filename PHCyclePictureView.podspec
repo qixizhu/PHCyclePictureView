@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   
   s.name         = "PHCyclePictureView"
-  s.version      = "0.1.5"
+  s.version      = "0.1.6"
   s.summary      = "图片轮播器"
 
   s.description  = <<-DESC
@@ -31,5 +31,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/qixizhu/PHCyclePictureView.git", :tag => "#{s.version}" }
 
   s.source_files  = "PHCyclePictureView/Sources/**/*"
+
+  s.dependency 'Kingfisher'
 
 end

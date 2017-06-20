@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class PHCycleImageView: UIImageView {
 
@@ -44,7 +45,14 @@ class PHCycleImageView: UIImageView {
         case let .local(name: name):
             image = UIImage(named: name)
         case let .network(urlString: urlString):
-            self.imageFromURL(urlString, placeholder: placeholderImage)
+            let imageURLOptional = URL(string: urlString)
+            var imageResource: ImageResource?
+            if let imageURL = imageURLOptional {
+                imageResource = ImageResource(downloadURL: imageURL, cacheKey: urlString)
+            } else {
+                imageResource = nil
+            }
+            self.kf.setImage(with: imageResource, placeholder: placeholderImage)
         }
     }
 

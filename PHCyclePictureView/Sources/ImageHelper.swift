@@ -49,7 +49,8 @@ public extension UIImage {
     convenience init?(fromView view: UIView) {
         UIGraphicsBeginImageContextWithOptions(view.bounds.size, false, 0)
         //view.drawViewHierarchyInRect(view.bounds, afterScreenUpdates: true)
-        view.layer.render(in: UIGraphicsGetCurrentContext()!)
+        guard let context = UIGraphicsGetCurrentContext() else { return nil }
+        view.layer.render(in: context)
         self.init(cgImage:(UIGraphicsGetImageFromCurrentImageContext()?.cgImage!)!)
         UIGraphicsEndImageContext()
     }

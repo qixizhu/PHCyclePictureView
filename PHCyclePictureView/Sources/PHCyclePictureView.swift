@@ -16,12 +16,12 @@ open class PHCyclePictureView: UIView {
     
     private struct Constants {
         static let defaultPlaceholderImageTextFont = UIFont.systemFont(ofSize: 14.0)
-        static let defaultPlaceholderImage: UIImage = {
-            let text = NSLocalizedString("Loading", comment: "图片加载中...")
-            let placeholderImage = UIImage(text: text, font: defaultPlaceholderImageTextFont, backgroundColor: .black)
-            
-            return placeholderImage!
-        }()
+//        static let defaultPlaceholderImage: UIImage = {
+//            let text = NSLocalizedString("Loading", comment: "图片加载中...")
+//            let placeholderImage = UIImage(text: text, font: defaultPlaceholderImageTextFont, backgroundColor: .black)
+//            
+//            return placeholderImage!
+//        }()
     }
     
     // MARK: - 数据源
@@ -89,7 +89,7 @@ open class PHCyclePictureView: UIView {
     }
     
     /// 占位图片，当图片不能显示时显示的图片
-    open var placeholderImage: UIImage = Constants.defaultPlaceholderImage {
+    open var placeholderImage: UIImage? {
         didSet {
             leftImageView.placeholderImage   = placeholderImage
             centerImageView.placeholderImage = placeholderImage
@@ -188,12 +188,15 @@ open class PHCyclePictureView: UIView {
         
         // 2.三个图片视图
         leftImageView = PHCycleImageView()
+        leftImageView.backgroundColor = .black
         leftImageView.contentMode = pictureContentMode
         leftImageView.clipsToBounds = true
         centerImageView = PHCycleImageView()
+        centerImageView.backgroundColor = .black
         centerImageView.contentMode = pictureContentMode
         centerImageView.clipsToBounds = true
         rightImageView = PHCycleImageView()
+        rightImageView.backgroundColor = .black
         rightImageView.contentMode = pictureContentMode
         rightImageView.clipsToBounds = true
         scrollView.addSubview(leftImageView)
@@ -245,7 +248,7 @@ open class PHCyclePictureView: UIView {
         updatePageControlFrame()
         
         // 处理默认占位图片
-        placeholderImage = UIImage(text: NSLocalizedString("Loading", comment: "图片加载中..."), font: Constants.defaultPlaceholderImageTextFont, backgroundColor: .black, size: CGSize(width: viewWith, height: viewHeight))!
+//        placeholderImage = UIImage(text: NSLocalizedString("Loading", comment: "图片加载中..."), font: Constants.defaultPlaceholderImageTextFont, backgroundColor: .black, size: CGSize(width: viewWith, height: viewHeight))!
     }
     
     func updatePageControlFrame() {

@@ -13,12 +13,12 @@ class PHCycleImageView: UIImageView {
 
     private struct Constants {
         static let defaultPlaceholderImageTextFont = UIFont.systemFont(ofSize: 14.0)
-        static let defaultPlaceholderImage: UIImage = {
-            let text = NSLocalizedString("Loading", comment: "图片加载中...")
-            let placeholderImage = UIImage(text: text, font: defaultPlaceholderImageTextFont, backgroundColor: .black)
-            
-            return placeholderImage!
-        }()
+//        static let defaultPlaceholderImage: UIImage = {
+//            let text = NSLocalizedString("Loading", comment: "图片加载中...")
+//            let placeholderImage = UIImage(text: text, font: defaultPlaceholderImageTextFont, backgroundColor: .black)
+//            
+//            return placeholderImage!
+//        }()
     }
     
     // MARK: - 属性
@@ -29,7 +29,7 @@ class PHCycleImageView: UIImageView {
         }
     }
     /// 占位图片
-    var placeholderImage: UIImage = Constants.defaultPlaceholderImage {
+    var placeholderImage: UIImage? {
         didSet {
             updateImage()
         }

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   
   s.name         = "PHCyclePictureView"
-  s.version      = "0.1.7"
+  s.version      = "0.2.0"
   s.summary      = "图片轮播器"
 
   s.description  = <<-DESC
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  s.ios.deployment_target = "9.0"
+  s.ios.deployment_target = "8.0"
 
   s.source       = { :git => "https://github.com/qixizhu/PHCyclePictureView.git", :tag => "#{s.version}" }
 

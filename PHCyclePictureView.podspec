@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   
   s.name         = "PHCyclePictureView"
-  s.version      = "0.2.1"
+  s.version      = "0.2.2"
   s.summary      = "图片轮播器"
 
   s.description  = <<-DESC

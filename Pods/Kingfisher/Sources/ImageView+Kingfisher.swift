@@ -253,6 +253,6 @@ extension Kingfisher where Base: ImageView {
 }
 
 
-@objc extension ImageView {
+extension ImageView {
     func shouldPreloadAllAnimation() -> Bool { return true }
 }

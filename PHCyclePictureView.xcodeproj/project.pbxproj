@@ -190,6 +190,7 @@
 				TargetAttributes = {
 					AF28352C1E9489600086E40A = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MWQ63499X2;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -431,6 +432,7 @@
 			baseConfigurationReference = 4251BF3F699EDF4959DC5257 /* Pods-PHCyclePictureView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MWQ63499X2;
 				INFOPLIST_FILE = PHCyclePictureView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -445,6 +447,7 @@
 			baseConfigurationReference = 32DFA1FA6D582EC915B19312 /* Pods-PHCyclePictureView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MWQ63499X2;
 				INFOPLIST_FILE = PHCyclePictureView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

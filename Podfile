@@ -6,6 +6,6 @@ target 'PHCyclePictureView' do
   use_frameworks!
 
   # Pods for PHCyclePictureView
-  pod 'Kingfisher'
+  pod 'Kingfisher', ~> '3.0'
 
 end

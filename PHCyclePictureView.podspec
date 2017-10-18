@@ -32,6 +32,6 @@ Pod::Spec.new do |s|
 
   s.source_files  = "PHCyclePictureView/Sources/**/*"
 
-  s.dependency 'Kingfisher'
+  s.dependency 'Kingfisher', '3.13'
 
 end

@@ -53,7 +53,7 @@ class ViewController: UIViewController {
 
 extension ViewController: PHCyclePictureViewDelegate {
     func cyclePictureView(_ cyclePictureView: PHCyclePictureView, didTapItemAt index: Int) {
-        print("<#T##items: Any...##Any#>")
+        print("点击了第\(index + 1)张图片")
     }
 }
 

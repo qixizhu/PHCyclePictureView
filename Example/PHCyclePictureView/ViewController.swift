@@ -31,18 +31,6 @@ class ViewController: UIViewController {
         cyclePictureView.delegate = self
         view.addSubview(cyclePictureView)
     }
-    
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        
-//        let cyclePVFrame = CGRect(
-//            x: 0,
-//            y: 64,
-//            width: view.bounds.width,
-//            height: view.bounds.width * 0.512
-//        )
-//        cyclePictureView.frame = cyclePVFrame
-    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

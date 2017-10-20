@@ -1,6 +1,8 @@
 # PHCyclePictureView
 
 [![CI Status](http://img.shields.io/travis/qixizhu/PHCyclePictureView.svg?style=flat)](https://travis-ci.org/qixizhu/PHCyclePictureView)
+[![CI Status](https://img.shields.io/badge/Swift-3.1-orange.svg)](https://swift.org/)
+[![CI Status](https://img.shields.io/badge/Swift-4.0-orange.svg)](https://swift.org/)
 [![Version](https://img.shields.io/cocoapods/v/PHCyclePictureView.svg?style=flat)](http://cocoapods.org/pods/PHCyclePictureView)
 [![License](https://img.shields.io/cocoapods/l/PHCyclePictureView.svg?style=flat)](http://cocoapods.org/pods/PHCyclePictureView)
 [![Platform](https://img.shields.io/cocoapods/p/PHCyclePictureView.svg?style=flat)](http://cocoapods.org/pods/PHCyclePictureView)
@@ -42,7 +44,7 @@ print("点击了第\(index + 1)张图片")
 * Swift 3 +
 
 ## Installation
-
+### CocoaPods
 PHCyclePictureView is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 

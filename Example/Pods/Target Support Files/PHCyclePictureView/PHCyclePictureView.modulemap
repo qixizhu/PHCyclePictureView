@@ -1,0 +1,6 @@
+framework module PHCyclePictureView {
+  umbrella header "PHCyclePictureView-umbrella.h"
+
+  export *
+  module * { export * }
+}

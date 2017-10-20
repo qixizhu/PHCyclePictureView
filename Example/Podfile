@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PHCyclePictureView_Example' do
+  pod 'PHCyclePictureView', :path => '../'
+
+  target 'PHCyclePictureView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

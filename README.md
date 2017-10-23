@@ -11,7 +11,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-![""](https://github.com/roshanman/FriendCircle/blob/master/ScreenShots/1.gif)
+![""](https://github.com/qixizhu/PHCyclePictureView/blob/master/ScreenShots/1.gif)
 
 ```swift
 let images = ["http://bizhi.zhuoku.com/bizhi2008/0516/3d/3d_desktop_13.jpg",

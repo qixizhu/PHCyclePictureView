@@ -60,7 +60,7 @@ Swift 3:
 pod 'PHCyclePictureView', '0.2.2'
 ```
 ### Carthage
-Only support Siwft 4
+Only support Swift 4
 ```ruby
 github "qixizhu/PHCyclePictureView"
 ```

@@ -59,6 +59,10 @@ Swift 3:
 ```ruby
 pod 'PHCyclePictureView', '0.2.2'
 ```
+### Carthage
+```ruby
+github "qixizhu/PHCyclePictureView"
+```
 
 ## Thanks
 [航歌-做最好的开发者知识平台](http://www.hangge.com/)，[Swift - 图片循环轮播组件的实现（附样例）](http://www.hangge.com/blog/cache/detail_1314.html)

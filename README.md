@@ -42,9 +42,9 @@ print("点击了第\(index + 1)张图片")
 ```
 
 ## Requirements
-* Xcode 8 +
+* Xcode 9 +
 * iOS 8 +
-* Swift 3 +
+* Swift 4 +
 
 ## Installation
 ### CocoaPods
@@ -55,12 +55,7 @@ Swift 4:
 ```ruby
 pod 'PHCyclePictureView'
 ```
-Swift 3:
-```ruby
-pod 'PHCyclePictureView', '0.2.2'
-```
 ### Carthage
-Only support Swift 4
 ```ruby
 github "qixizhu/PHCyclePictureView"
 ```

@@ -1,7 +1,6 @@
 # PHCyclePictureView
 
 [![CI Status](http://img.shields.io/travis/qixizhu/PHCyclePictureView.svg?style=flat)](https://travis-ci.org/qixizhu/PHCyclePictureView)
-[![CI Status](https://img.shields.io/badge/Swift-3.1-orange.svg)](https://swift.org/)
 [![CI Status](https://img.shields.io/badge/Swift-4.0-orange.svg)](https://swift.org/)
 [![Version](https://img.shields.io/cocoapods/v/PHCyclePictureView.svg?style=flat)](http://cocoapods.org/pods/PHCyclePictureView)
 [![License](https://img.shields.io/cocoapods/l/PHCyclePictureView.svg?style=flat)](http://cocoapods.org/pods/PHCyclePictureView)
